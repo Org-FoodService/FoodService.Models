@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<PackageId>FoodService.Nugget.Models</PackageId>
+		<Version>0.0.1</Version>
+		<Authors>Nicolas.Buscarini</Authors>
+		<Company>FoodService</Company>
+		<PackageDescription>A library for models in FoodService project</PackageDescription>
+		<RepositoryUrl>https://github.com/Org-FoodService/FoodService.Nugget.Models</RepositoryUrl>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>FoodService.Nugget.Models</Title>
+		<Description>A library for models in FoodService project</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.3" />
+	</ItemGroup>
+
+</Project>
