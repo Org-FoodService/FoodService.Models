@@ -25,4 +25,4 @@ jobs:
           version: 1.0.0
           project-path: FoodService.Nuget.Models/FoodService.Nuget.Models.csproj
           solution-path: FoodService.Nuget.Models.sln
-          nuget-feed-password: ${{ secrets.GITHUB_TOKEN }}
+          nuget-feed-password: ${{ secrets.PACKAGES_TOKEN }}
