@@ -1,24 +1,17 @@
-# FoodService.Nugget.Models
+# FoodService.Nuget.Models
 
-## NuGet.config
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-    <packageSources>
-        <clear />
-        <add key="github" value="https://nuget.pkg.github.com/NAMESPACE/index.json" />
-    </packageSources>
-    <packageSourceCredentials>
-        <github>
-            <add key="Username" value="USERNAME" />
-            <add key="ClearTextPassword" value="TOKEN" />
-        </github>
-    </packageSourceCredentials>
-</configuration>
-```
+FoodService.Nuget.Models is a repository dedicated to providing a NuGet package aimed at assisting FoodService applications. Its primary responsibility lies in modeling the data structures integral to the FoodService application ecosystem.
 
-## To add source
-`dotnet nuget add source --username USERNAME --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/NAMESPACE/index.json"`
+## Overview
 
-## To publish 
-`dotnet nuget push {{path_to_nupkg}} --source github `
+This repository serves as a central hub for developing and maintaining data models crucial to the FoodService application suite. By encapsulating these models within a NuGet package, developers can seamlessly integrate essential data structures into their FoodService applications, fostering consistency and efficiency across the board.
+
+## Demo Application
+
+While this repository focuses on the foundational elements of data modeling, you can explore our [front-end web application](https://foodservice-api.azurewebsites.net/) and [API Swagger documentation](https://foodserviceapi20240506113327.azurewebsites.net/swagger/index.html) to gain a comprehensive understanding of the FoodService ecosystem's capabilities.
+
+## Documentation
+
+For detailed information on utilizing the models provided in this repository, please refer to our [wiki](https://foodservice.gitbook.io/foodservice/).
+
+We encourage contributions to this project, as collaborative efforts are pivotal in refining and optimizing the FoodService experience through FoodServiceAPI!
