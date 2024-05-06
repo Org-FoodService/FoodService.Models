@@ -2,9 +2,11 @@ name: Release to NuGet
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches: 
+      - main
 
 jobs:
   build:
@@ -13,9 +15,9 @@ jobs:
       contents: read
       packages: write
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
-        
+      
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v3
         with:
@@ -23,12 +25,12 @@ jobs:
           source-url: https://nuget.pkg.github.com/Org-FoodService/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Build project
         run: dotnet build --configuration Release
-        
+
       - name: Create the package
         run: dotnet pack --configuration Release
-        
+
       - name: Publish the package to GPR
-        run: dotnet nuget push bin/Release/*.nupkg
+        run: dotnet nuget push "*.nupkg" --source "https://nuget.pkg.github.com/Org-FoodService/index.json"
