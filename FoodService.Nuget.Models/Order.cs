@@ -1,6 +1,6 @@
-﻿using FoodService.Nugget.Models.Auth.User;
+﻿using FoodService.Nuget.Models.Auth.User;
 
-namespace FoodService.Nugget.Models
+namespace FoodService.Nuget.Models
 {
     /// <summary>
     /// Represents an order placed by a user.

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace FoodService.Nugget.Models.Auth.User
+namespace FoodService.Nuget.Models.Auth.User
 {
     /// <summary>
     /// Represents a base user in the application.

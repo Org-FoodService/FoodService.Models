@@ -1,4 +1,4 @@
-﻿namespace FoodService.Nugget.Models
+﻿namespace FoodService.Nuget.Models
 {
     /// <summary>
     /// Represents a common response with generic data.

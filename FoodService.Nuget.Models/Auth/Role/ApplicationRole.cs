@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace FoodService.Nugget.Models.Auth.Role
+namespace FoodService.Nuget.Models.Auth.Role
 {
     /// <summary>
     /// Represents an application role.

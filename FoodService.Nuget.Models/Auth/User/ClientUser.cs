@@ -1,6 +1,4 @@
-﻿using FoodService.Nugget.Models;
-
-namespace FoodService.Nugget.Models.Auth.User
+﻿namespace FoodService.Nuget.Models.Auth.User
 {
     /// <summary>
     /// Represents an application user.

@@ -1,4 +1,4 @@
-﻿namespace FoodService.Nugget.Models.Abstract
+﻿namespace FoodService.Nuget.Models.Abstract
 {
     /// <summary>
     /// Abstract class representing an item.

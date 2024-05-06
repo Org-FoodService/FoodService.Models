@@ -1,8 +1,8 @@
-﻿using FoodService.Nugget.Models.Abstract;
-using FoodService.Nugget.Models.Enum;
+﻿using FoodService.Nuget.Models.Abstract;
+using FoodService.Nuget.Models.Enum;
 using System.Collections.Generic;
 
-namespace FoodService.Nugget.Models
+namespace FoodService.Nuget.Models
 {
     /// <summary>
     /// Represents a product entity.
