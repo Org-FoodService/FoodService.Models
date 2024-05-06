@@ -7,7 +7,7 @@
 		<Authors>Nicolas.Buscarini</Authors>
 		<Company>FoodService</Company>
 		<PackageDescription>A library for models in FoodService project</PackageDescription>
-		<RepositoryUrl>https://github.com/Org-FoodService/FoodService.Nugget.Models</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Org-FoodService/FoodService.Nuget.Models</RepositoryUrl>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
