@@ -1,6 +1,6 @@
-# FoodService.Nuget.Models
+# FoodService.Models
 
-FoodService.Nuget.Models is a repository dedicated to providing a NuGet package aimed at assisting FoodService applications. Its primary responsibility lies in modeling the data structures integral to the FoodService application ecosystem.
+FoodService.Models is a repository dedicated to providing a NuGet package aimed at assisting FoodService applications. Its primary responsibility lies in modeling the data structures integral to the FoodService application ecosystem.
 
 ## Overview
 
