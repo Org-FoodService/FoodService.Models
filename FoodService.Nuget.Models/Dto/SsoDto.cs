@@ -26,12 +26,25 @@ namespace FoodService.Nuget.Models.Dto
         /// Initializes a new instance of the <see cref="SsoDto"/> class.
         /// </summary>
         /// <param name="accessToken">The access token.</param>
-        /// <param name="user">The user information.</param>
+        /// <param name="user">The user information.</param>\
+        /// <param name="expiration">The expiration datetime.</param>\
         public SsoDto(string accessToken, UserBase user, DateTime expiration)
         {
             AccessToken = accessToken;
             User = user;
             Expiration = expiration;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SsoDto"/> class.
+        /// </summary>
+        /// <param name="accessToken">The access token.</param>
+        /// <param name="user">The user information.</param>
+        public SsoDto(string accessToken, UserBase user)
+        {
+            AccessToken = accessToken;
+            User = user;
+            Expiration = DateTime.UtcNow.AddHours(3);
         }
     }
 }
