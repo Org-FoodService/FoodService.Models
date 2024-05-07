@@ -11,9 +11,14 @@
         public string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets the description of the item.
+        /// Gets or sets the short description of the product.
         /// </summary>
-        public string? Description { get; set; }
+        public string ShortDescription { get; set; }
+
+        /// <summary>
+        /// Gets or sets the description of the product.
+        /// </summary>
+        public string Description { get; set; }
 
         /// <summary>
         /// Gets or sets the image URL of the item.
