@@ -22,7 +22,7 @@ jobs:
       - name: Build, Test, and Publish NuGet
         uses: wahinekai/actions-publish-nuget@v3.0.1
         with:
-          version: 1.1.0
-          project-path: FoodService.Nuget.Models/FoodService.Nuget.Models.csproj
-          solution-path: FoodService.Nuget.Models.sln
+          version: 1.0.0
+          project-path: FoodService.Models/FoodService.Models.csproj
+          solution-path: FoodService.Models.sln
           nuget-feed-password: ${{ secrets.PACKAGES_TOKEN }}

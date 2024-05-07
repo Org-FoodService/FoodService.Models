@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FoodService.Nuget.Models.Dto
+namespace FoodService.Models.Dto
 {
     /// <summary>
     /// Data transfer object for sign-up operation.

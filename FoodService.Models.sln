@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodService.Nuget.Models", "FoodService.Nuget.Models\FoodService.Nuget.Models.csproj", "{44A88FB0-5E6F-402B-8E01-3B363BDF4344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodService.Models", "FoodService.Models\FoodService.Models.csproj", "{44A88FB0-5E6F-402B-8E01-3B363BDF4344}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

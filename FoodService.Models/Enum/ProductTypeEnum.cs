@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace FoodService.Nuget.Models.Enum
+namespace FoodService.Models.Enum
 {
     /// <summary>
     /// Enumeration representing the type of a product.

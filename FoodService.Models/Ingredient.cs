@@ -1,7 +1,7 @@
-﻿using FoodService.Nuget.Models.Abstract;
+﻿using FoodService.Models.Abstract;
 using System.Text.Json.Serialization;
 
-namespace FoodService.Nuget.Models
+namespace FoodService.Models
 {
     /// <summary>
     /// Represents an ingredient in the application.

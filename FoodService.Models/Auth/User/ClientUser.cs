@@ -1,4 +1,6 @@
-﻿namespace FoodService.Nuget.Models.Auth.User
+﻿using FoodService.Models;
+
+namespace FoodService.Models.Auth.User
 {
     /// <summary>
     /// Represents an application user.

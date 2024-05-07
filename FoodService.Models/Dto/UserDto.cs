@@ -1,6 +1,6 @@
-﻿using FoodService.Nuget.Models.Auth.User;
+﻿using FoodService.Models.Auth.User;
 
-namespace FoodService.Nuget.Models.Dto
+namespace FoodService.Models.Dto
 {
     /// <summary>
     /// Data transfer object for user information.
