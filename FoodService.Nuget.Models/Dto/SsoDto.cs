@@ -27,11 +27,11 @@ namespace FoodService.Nuget.Models.Dto
         /// </summary>
         /// <param name="accessToken">The access token.</param>
         /// <param name="user">The user information.</param>
-        public SsoDto(string accessToken, UserBase user)
+        public SsoDto(string accessToken, UserBase user, DateTime expiration)
         {
             AccessToken = accessToken;
             User = user;
-            Expiration = DateTime.UtcNow.DayOfWeek;
+            Expiration = expiration;
         }
     }
 }
