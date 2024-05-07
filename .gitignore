@@ -397,3 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /FoodService.Nuget.Models/nuget.config
+/FoodService.Models/TextFile1.txt
+/FoodService.Models/nuget.config
