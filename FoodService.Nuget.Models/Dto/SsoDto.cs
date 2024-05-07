@@ -15,7 +15,7 @@ namespace FoodService.Nuget.Models.Dto
         /// <summary>
         /// Gets or sets the expiration day of the access token.
         /// </summary>
-        public DayOfWeek Expiration { get; set; }
+        public DateTime Expiration { get; set; }
 
         /// <summary>
         /// Gets or sets the user information.
