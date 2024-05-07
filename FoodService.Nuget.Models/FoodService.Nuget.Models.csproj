@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<PackageId>FoodService.Nuget.Models</PackageId>
+		<PackageId>FoodService.Models</PackageId>
 		<Version>1.1.0</Version>
 		<Authors>Nicolas.Buscarini</Authors>
 		<Company>FoodService</Company>
