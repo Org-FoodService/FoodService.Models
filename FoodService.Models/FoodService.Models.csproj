@@ -14,6 +14,7 @@
 		<Title>FoodService.Models</Title>
 		<Description>A library for models in FoodService project</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AssemblyName>AssemblyInfo</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>
