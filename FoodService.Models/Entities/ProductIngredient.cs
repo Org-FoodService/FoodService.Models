@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FoodService.Models
+namespace FoodService.Models.Entities
 {
     /// <summary>
     /// Represents a many-to-many relationship between Product and Ingredient.

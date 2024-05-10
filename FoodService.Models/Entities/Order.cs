@@ -1,6 +1,6 @@
 ﻿using FoodService.Models.Auth.User;
 
-namespace FoodService.Models
+namespace FoodService.Models.Entities
 {
     /// <summary>
     /// Represents an order placed by a user.

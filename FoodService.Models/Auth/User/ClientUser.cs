@@ -1,4 +1,4 @@
-﻿using FoodService.Models;
+﻿using FoodService.Models.Entities;
 
 namespace FoodService.Models.Auth.User
 {

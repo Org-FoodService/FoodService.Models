@@ -2,7 +2,7 @@
 using FoodService.Models.Enum;
 using System.Collections.Generic;
 
-namespace FoodService.Models
+namespace FoodService.Models.Entities
 {
     /// <summary>
     /// Represents a product entity.
