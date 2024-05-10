@@ -9,29 +9,29 @@
         /// <summary>
         /// Gets the status code of the response.
         /// </summary>
-        public int StatusCode { get; private set; }
+        public int StatusCode { get; set; }
 
         /// <summary>
         /// Gets a value indicating whether the response is successful.
         /// </summary>
-        public bool IsSuccess { get; private set; }
+        public bool IsSuccess { get; set; }
 
         /// <summary>
         /// Gets the message associated with the response.
         /// </summary>
-        public string Message { get; private set; }
+        public string Message { get; set; }
 
         /// <summary>
         /// Gets the error message associated with the response, if any.
         /// </summary>
-        public string? Error { get; private set; }
+        public string? Error { get; set; }
 
         /// <summary>
         /// Gets the data associated with the response.
         /// </summary>
-        public T Data { get; private set; }
+        public T Data { get; set; }
 
-        private ResponseCommon(int statusCode, string message, T data, string? error = null, bool success = false)
+        public ResponseCommon(int statusCode, string message, T data, string? error = null, bool success = false)
         {
             StatusCode = statusCode;
             Message = message;
