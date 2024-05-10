@@ -1,4 +1,6 @@
-﻿namespace FoodService.Models.Responses
+﻿using System.Text.Json.Serialization;
+
+namespace FoodService.Models.Responses
 {
     /// <summary>
     /// Represents a common response with generic data.
@@ -31,13 +33,16 @@
         /// </summary>
         public T Data { get; set; }
 
-        public ResponseCommon(int statusCode, string message, T data, string? error = null, bool success = false)
+        [JsonConstructor]
+        public ResponseCommon() { }
+
+        private ResponseCommon(int statusCode, string message, T data, string? error = null, bool isSuccess = false)
         {
             StatusCode = statusCode;
             Message = message;
             Error = error;
             Data = data;
-            IsSuccess = success;
+            IsSuccess = isSuccess;
         }
 
         /// <summary>
