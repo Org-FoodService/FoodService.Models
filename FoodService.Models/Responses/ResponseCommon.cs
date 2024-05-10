@@ -12,7 +12,7 @@
         /// </summary>
         public T Data { get; private set; }
 
-        private ResponseCommon(int statusCode, string message, T data, string? error = null, bool success = false) : base(statusCode, success, message, error)
+        public ResponseCommon(int statusCode, string message, T data, string? error = null, bool success = false) : base(statusCode, success, message, error)
         {
             Data = data;
         }

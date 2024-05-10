@@ -3,8 +3,8 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<PackageId>FoodService.Models</PackageId>
-		<Version>1.0.3</Version>
-		<Authors>Nicolas.Buscarini</Authors>
+		<Version>1.0.4</Version>
+		<Authors>FoodService</Authors>
 		<Company>FoodService</Company>
 		<PackageDescription>A library for models in FoodService project</PackageDescription>
 		<RepositoryUrl>https://github.com/Org-FoodService/FoodService.Models</RepositoryUrl>
