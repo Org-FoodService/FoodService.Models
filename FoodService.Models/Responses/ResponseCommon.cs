@@ -53,7 +53,7 @@ namespace FoodService.Models.Responses
         /// <returns>A successful response object.</returns>
         public static ResponseCommon<T> Success(T data, string message = "Success")
         {
-            return new ResponseCommon<T>(200, message, data, success: true);
+            return new ResponseCommon<T>(200, message, data, isSuccess: true);
         }
 
         /// <summary>
