@@ -26,7 +26,6 @@ namespace FoodService.Models.Abstract
         /// <summary>
         /// Gets or sets the image URL of the item.
         /// </summary>
-        [MaxLength(16), Column(TypeName = "Binary")]
-        public byte[]? Image { get; set; }
+        public string Image { get; set; }
     }
 }
