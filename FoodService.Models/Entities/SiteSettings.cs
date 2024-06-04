@@ -32,7 +32,7 @@
         /// <summary>
         /// Gets or sets the icon of the service as a byte array.
         /// </summary>
-        public byte[] Icon { get; set; }
+        public byte[]? Icon { get; set; }
 
         /// <summary>
         /// Gets or sets the date and time when the settings were last updated.
