@@ -6,6 +6,10 @@
     public class SiteSettings
     {
         /// <summary>
+        /// Gets or sets the ID of the SiteSettings.
+        /// </summary>
+        public int Id { get; set; }
+        /// <summary>
         /// Gets or sets the primary color used in the site's theme.
         /// </summary>
         public string PrimaryColor { get; set; }
