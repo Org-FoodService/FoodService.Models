@@ -20,6 +20,15 @@ namespace FoodService.Models.Dto
         public string Password { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="SignInDto"/> class with default values.
+        /// </summary>
+        public SignInDto()
+        {
+            Username = "";
+            Password = "";
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="SignInDto"/> class.
         /// </summary>
         /// <param name="username">The username.</param>
