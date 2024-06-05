@@ -1,4 +1,5 @@
 ﻿using FoodService.Models.Auth.User;
+using System.Text.Json.Serialization;
 
 namespace FoodService.Models.Dto
 {
@@ -20,6 +21,7 @@ namespace FoodService.Models.Dto
         /// <summary>
         /// Gets or sets the user information.
         /// </summary>
+        [JsonIgnore]
         public UserBase User { get; set; }
 
         /// <summary>
