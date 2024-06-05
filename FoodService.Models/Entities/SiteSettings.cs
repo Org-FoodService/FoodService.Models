@@ -9,6 +9,7 @@
         /// Gets or sets the ID of the SiteSettings.
         /// </summary>
         public int Id { get; set; }
+
         /// <summary>
         /// Gets or sets the primary color used in the site's theme.
         /// </summary>
@@ -38,5 +39,30 @@
         /// Gets or sets the date and time when the settings were last updated.
         /// </summary>
         public DateTime LastUpdate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the dark color used in the site's theme.
+        /// </summary>
+        public string DarkColor { get; set; }
+
+        /// <summary>
+        /// Gets or sets the tertiary color used in the site's theme.
+        /// </summary>
+        public string TertiaryColor { get; set; }
+
+        /// <summary>
+        /// Gets or sets the green color used in the site's theme.
+        /// </summary>
+        public string GreenColor { get; set; }
+
+        /// <summary>
+        /// Gets or sets the success color used in the site's theme.
+        /// </summary>
+        public string SuccessColor { get; set; }
+
+        /// <summary>
+        /// Gets or sets the danger color used in the site's theme.
+        /// </summary>
+        public string DangerColor { get; set; }
     }
 }
