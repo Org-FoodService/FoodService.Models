@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<PackageId>FoodService.Models</PackageId>
-		<Version>1.1.3</Version>
+		<Version>1.1.4</Version>
 		<Authors>FoodService</Authors>
 		<Company>FoodService</Company>
 		<PackageDescription>A library for models in FoodService project</PackageDescription>

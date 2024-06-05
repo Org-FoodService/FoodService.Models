@@ -38,7 +38,6 @@ namespace FoodService.Models.Dto
         /// <summary>
         /// Initializes a new instance of the <see cref="SsoDto"/> class.
         /// </summary>
-        [JsonConstructor]
         public SsoDto(string accessToken, DateTime expiration, List<string> roles)
         {
             AccessToken = accessToken;
@@ -49,7 +48,6 @@ namespace FoodService.Models.Dto
         /// <summary>
         /// Initializes a new instance of the <see cref="SsoDto"/> class.
         /// </summary>
-        [JsonConstructor]
         public SsoDto(string accessToken, DateTime expiration, List<string> roles, UserBase user)
         {
             AccessToken = accessToken;
