@@ -37,7 +37,7 @@ namespace FoodService.Models.Entities
         /// <summary>
         /// Gets or sets the price of the product.
         /// </summary>
-        public decimal Price { get; set; }
+        public double Price { get; set; }
 
         /// <summary>
         /// Gets or sets the list of product ingredients associated with this product.
