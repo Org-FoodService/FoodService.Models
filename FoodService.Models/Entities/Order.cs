@@ -1,4 +1,5 @@
 ﻿using FoodService.Models.Auth.User;
+using System.Text.Json.Serialization;
 
 namespace FoodService.Models.Entities
 {
@@ -15,12 +16,12 @@ namespace FoodService.Models.Entities
         /// <summary>
         /// Gets or sets the list of items included in the order.
         /// </summary>
-        public required List<OrderItem> OrderItems { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
 
         /// <summary>
         /// Gets or sets the user who placed the order.
         /// </summary>
-        public required ClientUser User { get; set; }
+        public ClientUser User { get; set; }
     }
 
     /// <summary>
@@ -51,7 +52,8 @@ namespace FoodService.Models.Entities
         /// <summary>
         /// Gets or sets the order associated with this order item.
         /// </summary>
-        public required Order Order { get; set; }
+        [JsonIgnore]
+        public Order? Order { get; set; }
 
         /// <summary>
         /// Gets or sets the ID of the product associated with this order item.
@@ -61,6 +63,6 @@ namespace FoodService.Models.Entities
         /// <summary>
         /// Gets or sets the product associated with this order item.
         /// </summary>
-        public required Product Product { get; set; }
+        public Product Product { get; set; }
     }
 }
