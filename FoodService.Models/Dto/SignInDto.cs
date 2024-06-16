@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Destructurama.Attributed;
+using System.ComponentModel.DataAnnotations;
 
 namespace FoodService.Models.Dto
 {
@@ -17,6 +18,7 @@ namespace FoodService.Models.Dto
         /// Gets or sets the password.
         /// </summary>
         [Required(ErrorMessage = "Password is required")]
+        [NotLogged]
         public string Password { get; set; }
 
         /// <summary>
