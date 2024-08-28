@@ -1,9 +1,5 @@
 ﻿using FoodService.Models.Abstract;
 using FoodService.Models.Enum;
-using Microsoft.Extensions.Localization;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Threading;
 
 namespace FoodService.Models.Entities
 {
