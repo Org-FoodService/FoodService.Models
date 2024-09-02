@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace FoodService.Models.Entities
 {
@@ -10,12 +11,14 @@ namespace FoodService.Models.Entities
         /// <summary>
         /// Gets or sets the ID of the Product.
         /// </summary>
+        [JsonIgnore]
         public int ProductId { get; set; }
 
         /// <summary>
         /// Gets or sets the product associated with this product-ingredient relationship.
         /// </summary>
         [ForeignKey("ProductId")]
+        [JsonIgnore]
         public Product Product { get; set; }
 
         /// <summary>
