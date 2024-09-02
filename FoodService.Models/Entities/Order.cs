@@ -10,7 +10,7 @@ namespace FoodService.Models.Entities
         /// <summary>
         /// Gets or sets the ID of the order.
         /// </summary>
-        public int OrderId { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Gets or sets the list of items included in the order.
